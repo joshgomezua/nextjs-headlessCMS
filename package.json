@@ -1,0 +1,55 @@
+{
+  "name": "possue-frontend",
+  "version": "1.0.5",
+  "description": "Possue.com - Spot Exam Issues on CA Bar",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoodlaces/possue"
+  },
+  "author": "Steven Finley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoodlaces/possue"
+  },
+  "homepage": "https://github.com/hoodlaces/possue#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^19.0.0",
+    "@ckeditor/ckeditor5-autoformat": "^19.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^19.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^19.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^19.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@ckeditor/ckeditor5-word-count": "^19.0.0",
+    "@tailwindcss/ui": "^0.2.2",
+    "alpinejs": "^2.3.3",
+    "marked": "^1.0.0",
+    "next": "^9.4.0",
+    "next-fonts": "^1.1.0",
+    "next-images": "^1.4.0",
+    "nprogress": "^0.2.0",
+    "react": "16.13.1",
+    "react-compound-timer": "^1.2.0",
+    "react-dom": "16.13.1",
+    "react-markdown": "^4.3.1",
+    "react-showdown": "^2.0.3",
+    "react-spring-accordion": "^0.0.18",
+    "react-timer-hook": "^2.0.2",
+    "remark-breaks": "^1.0.5",
+    "save": "^2.4.0",
+    "strapi": "^3.0.0-next.56",
+    "strapi-sdk-javascript": "^0.3.3"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "2.1.2",
+    "autoprefixer": "9.7.6",
+    "tailwindcss": "1.3.5"
+  }
+}
