@@ -33,7 +33,7 @@ const Countdown = () => {
     }
 
     timerComponents.push(
-      <span className='semibold text-2xl text-white'>
+      <span className='semibold text-2xl text-white' key={interval}>
         {timeLeft[interval]} {interval}{' '}
       </span>
     );

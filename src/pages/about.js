@@ -9,12 +9,11 @@ function About() {
           {[
             {
               heading: `What is Possue?`,
-              body: `Possue.com is being created and maintained by a law school graduate who,
-              after taking the February 2020 California Bar exam, wanted to keep their skills sharp
-              but still continue to build things using Javascript.  Day 1, the essay portion of the exam,
-              was the hardest to find and practice in a timed environment.  I began to think there had to be a better way
-              than finding old PDF's and sortying through them, it would be nice to have a convenient way to sort through
-              and practice old exams`,
+              body: `Possue.com is created by and maintained by a law school graduate who,
+              after taking the February 2020 California Bar Exam, wanted to keep their skills sharp
+              while continuing building projects using Javascript.  The first day of the exam, which consists of 5 essays and a performance test,
+              was challenging to practice in a timed environment.  I began to think of better better ways to study
+              other than sorting through PDFs and sample answers, I wanted essays sorted and easily accessible.`,
             },
           ].map((section, index) => (
             <div key='index'>
@@ -26,27 +25,38 @@ function About() {
         </div>
 
         <div className='md:ml-6 md:w-1/2'>
-          <h2 className='font-bold mb-3 text-xl'>What is the problem?</h2>
+          <h2 className='font-bold mb-3 text-xl'>Why, what is the problem?</h2>
           <p className='mb-6'>
-            The current way of looking at past exams is that it's{' '}
+            The current way of looking at past exams is two fold:{' '}
             <span className='font-bold'>
               <br />
-              1) clunky{' '}
+              1) outdated{' '}
             </span>{' '}
-            or <span className='font-bold'>2) expensive.</span> <br />
+            or <span className='font-bold'>2) model answers are unrealistic.</span> <br />
             <br />
-            Past bar exams are available on the State Bar of California website
-            but they are in PDF form with only 2 sample answers for your to
-            decode and try and figure out what issues they were looking for. If
-            you sign up for a traditional bar prep course, you will see past
-            exam questions and the bar prep companies model answer, but their
-            model answers are written by someone who had hours if not days to
-            formulate a response and is not representative of a realistic way to
-            spot issues, write them down as if I were outlining, check my
-            answers, and move on. Since there wasn't anything like that, I
-            thought it would be a good idea to do it myself. Thank you for
-            checking out my work and feel free to give feedback on what would
-            make it a better experience.
+            Outdated in that students are able to find past bar exams
+            on the State Bar of California website but in PDF form accompanied by two sample answers. Trying to
+            decode and figure out what issues are being tested is a challenge.  Moreover,
+            the sample answers are in a timed enviornment but an examinee may have thrown in more issues than were actually present.
+            This creates the problem of guessing what the bar was looking for when all I want is the rubric.
+            <br /><br />
+            Unrealistic in that traditional bar prep courses offer model answers to past past exam
+            questions, but in my experience the provided answers are written by someone who had hours if not days to
+            formulate a response and therefore not a realistic answer.
+            Comparing my timed answer had me feeling
+            grossly inadequate, which fueled my anxiety in that achieving that
+            type of answer is impossible.  Who needs that?
+            <br /><br />
+            I wanted a way to spot issues, write them down as if I were outlining, check my
+            answers, and move on.  And, that's what I'm building this site to provide.
+            This site is a labor of love and hard work, thank you for taking the time to
+            check it out and feel free to give feedback on what would
+            make it a better experience.  I try to work on it everyday.
+            <br />
+            <br />
+            Steven Finley, JD <br />
+            Western State College of Law <br />
+            <a href="mailto:info@possue.com" className="font-bold italic">info@possue.com</a>
           </p>
         </div>
       </div>
