@@ -14,18 +14,7 @@ const BusinessAssociations = () => {
               <Accordion.Heading className='font-bold text-3xl'>
                 Duty of Loyalty regarding COI transactions
               </Accordion.Heading>
-              <Accordion.Child className='text-xl'>
-                A lawyer owes each client a duty of loyalty and must act with
-                the <b>client's best interest</b> in mind. A lawyer must not
-                represent a client if the representation involves a conflict of
-                interest. A conflict exists if:
-                <br /> (1) the representation of one client will be{' '}
-                <b>directly adverse</b> to another client; or <br />
-                (2) there is a <b>signficant risk</b> that the representation
-                will be <b>materially limited</b> by the lawyer's
-                responsibilities to another client, a former client, a third
-                person, or by the lawyer's own personal interests.
-              </Accordion.Child>
+              <Accordion.Child className='text-xl'>Rule</Accordion.Child>
             </Accordion.Item>
           </Accordion.Wrapper>
           <form className='bg-white shadow-md rounded'>

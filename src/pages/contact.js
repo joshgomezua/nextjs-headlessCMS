@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className='flex'>
                   <div className='flex-shrink-0'>
                     <svg
-                      className='h-6 w-6 text-gray-400'
+                      className='h-6 w-6 text-red-400'
                       fill='none'
                       stroke='currentColor'
                       strokeLinecap='round'
@@ -41,7 +41,7 @@ const Contact = () => {
                 <div className='mt-6 flex'>
                   <div className='flex-shrink-0'>
                     <svg
-                      className='h-6 w-6 text-gray-400'
+                      className='h-6 w-6 text-red-400'
                       stroke='currentColor'
                       fill='none'
                       viewBox='0 0 24 24'
@@ -55,7 +55,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className='ml-3 text-base leading-6 text-gray-500'>
-                    <p>info@possue.com</p>
+                    <a href="mailto:info@possue.com">info@possue.com</a>
                   </div>
                 </div>
               </div>
@@ -66,8 +66,7 @@ const Contact = () => {
               </h2>
               <div className='mt-3'>
                 <p className='text-lg leading-7 text-gray-500'>
-                  Have suggestions, tips, or pointers that you would like to
-                  share? We'd be happy to take any ideas you have and consider
+                  Have suggestions, tips, or pointers? We'd be happy to take any ideas you have and consider
                   building them into the site.
                 </p>
               </div>
@@ -75,7 +74,7 @@ const Contact = () => {
                 <div className='flex'>
                   <div className='flex-shrink-0'>
                     <svg
-                      className='h-6 w-6 text-gray-400'
+                      className='h-6 w-6 text-red-400'
                       fill='none'
                       stroke='currentColor'
                       strokeLinecap='round'
@@ -94,7 +93,7 @@ const Contact = () => {
                 <div className='mt-6 flex'>
                   <div className='flex-shrink-0'>
                     <svg
-                      className='h-6 w-6 text-gray-400'
+                      className='h-6 w-6 text-red-400'
                       stroke='currentColor'
                       fill='none'
                       viewBox='0 0 24 24'
@@ -108,7 +107,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className='ml-3 text-base leading-6 text-gray-500'>
-                    <p>info@possue.com</p>
+                    <a href="mailto:info@possue.com">info@possue.com</a>
                   </div>
                 </div>
               </div>
