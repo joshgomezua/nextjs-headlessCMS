@@ -12,8 +12,8 @@ function About() {
               body: `Possue.com is created by and maintained by a law school graduate who,
               after taking the February 2020 California Bar Exam, wanted to keep their skills sharp
               while continuing building projects using Javascript.  The first day of the exam, which consists of 5 essays and a performance test,
-              was challenging to practice in a timed environment.  I began to think of better better ways to study
-              other than sorting through PDFs and sample answers, I wanted essays sorted and easily accessible.`,
+              was challenging to practice in a timed environment.  I began to think of better way to study
+              other than sorting through PDFs and sample answers, I wanted essays to be sorted and easily accessible.`,
             },
           ].map((section, index) => (
             <div key='index'>
@@ -48,10 +48,7 @@ function About() {
             type of answer is impossible.  Who needs that?
             <br /><br />
             I wanted a way to spot issues, write them down as if I were outlining, check my
-            answers, and move on.  And, that's what I'm building this site to provide.
-            This site is a labor of love and hard work, thank you for taking the time to
-            check it out and feel free to give feedback on what would
-            make it a better experience.  I try to work on it everyday.
+            answers, and move on. I'm working hard to get Possue to that point.
             <br />
             <br />
             Steven Finley, JD <br />
