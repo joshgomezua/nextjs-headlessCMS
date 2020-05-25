@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 
-const Contact = () => {
+function Contact() {
   return (
     <Layout>
       <div className='bg-white'>

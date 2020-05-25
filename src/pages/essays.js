@@ -22,7 +22,7 @@ const essayPage = ({ subjects }) => {
                 <div className='px-4 py-4 hover:bg-red-700 hover:text-white rounded-md'>
                   <div className='font-bold text-2xl'>
                     {subject.title}
-                    <span className='font-thin text-xl text-gray-500 hover:text-grey-200'>
+                    <span className='font-regular italic text-xl text-gray-500 hover:text-grey-200'>
                       {' '}
                       {subject.essays.length}{' '}
                     </span>
