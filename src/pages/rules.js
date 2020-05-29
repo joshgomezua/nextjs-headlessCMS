@@ -7,7 +7,7 @@ const Rules = () => {
       <div className='flex font-bold justify-center bg-red-700 text-white rounded text-3xl mb-4'>
         Memorize The Most Tested Rules
       </div>
-      <div className='flex flex-wrap mb-4 rounded justify-center'>
+      <div className='flex flex-wrap mb-4 rounded justify-center cursor-pointer'>
         {[
           {
             subject: `Agency and Partnership`,

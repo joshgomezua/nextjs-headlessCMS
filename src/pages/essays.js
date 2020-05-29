@@ -4,16 +4,15 @@ import Layout from '../components/Layout';
 // const apiUrl = 'http://localhost:1337';
 const apiUrl = process.env.API_URL || 'http://localhost:1337';
 
-const essayPage = ({ subjects }) => {
-  console.log(subjects);
-  // add function to total all of the essays.
+const essayPage = ({ subjects, essays }) => {
   return (
     <Layout>
-      {/*Subjects Header */}
-      <div className='flex font-bold justify-center bg-red-700 text-white rounded text-3xl mb-4'>
+      <div className='flex font-bold justify-center  bg-red-700 text-white rounded text-3xl mb-4'>
         📝 Past California Questions
+        <span className='font-regular italic text-xl text-gray-500'>
+        {essays.length}
+        </span>
       </div>
-      {/*Subjects */}
       <div className='flex flex-wrap mb-4 rounded justify-center cursor-pointer'>
         {subjects
           .sort((a, b) => a.id - b.id)
@@ -40,9 +39,12 @@ const essayPage = ({ subjects }) => {
 export async function getServerSideProps() {
   const res = await fetch(`${apiUrl}/subjects/`);
   const subjects = await res.json();
+  const resp = await fetch(`${apiUrl}/essays/`);
+  const essays = await resp.json();
   return {
     props: {
       subjects,
+      essays
     },
   };
 }

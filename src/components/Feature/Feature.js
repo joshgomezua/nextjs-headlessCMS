@@ -18,12 +18,12 @@ const Feature = () => {
       <div className='flex items-center flex-wrap mb-20'>
         <div className='w-full md:w-1/2'>
           <h4 className='text-3xl text-gray-800 font-bold mb-3'>
-            Actual Past Exam Questions 📝
+            Actual Past Exam Questions 📖
           </h4>
           <p className='text-gray-600 mb-8 text-xl'>
             Practice spotting issues on bar exams from the{' '}
             <span className='font-bold text-red-700'>last 20 years.</span>
-            <br /> We only use the questions that have been released and
+            <br /> We only show the questions that have been released and
             publically available to everyone, only easier!
           </p>
         </div>
@@ -46,7 +46,7 @@ const Feature = () => {
             breaking up and sorting every question by subject.
           </p>
 
-          <p className='text-gray-600 text-xl font-bold mb-8'>
+          <p className='text-red-700 text-xl font-bold mb-8'>
             Concentrate on the ones you need work on to make sure you're ready!
           </p>
         </div>
@@ -63,7 +63,7 @@ const Feature = () => {
             most important skill on bar exam and walk into Day 1 with
             confidence!
           </p>
-          <p className='text-gray-600 text-xl font-bold mb-8'>
+          <p className='text-red-700 text-xl font-bold mb-8'>
             Practice, practice, practice.
           </p>
         </div>

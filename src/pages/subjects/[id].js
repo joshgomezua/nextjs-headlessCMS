@@ -2,14 +2,13 @@ import Layout from '../../components/Layout';
 import Link from 'next/link';
 
 const apiUrl = process.env.API_URL || 'http://localhost:1337';
-// const apiUrl = 'http://localhost:1337';
 
 const Subjects = ({ subject, essays }) => {
   return (
     <>
       <Layout>
         <div className='flex font-bold justify-center bg-red-700 text-white rounded text-3xl'>
-          ⏲ Timer Will Start When You Click on the Question!
+          ⏱️ Timer Starts When You Click on the Question!
         </div>
         <div className='font-bold text-4xl'>{subject.title}</div>
         <div className='flex flex-wrap mb-4 rounded justify-center cursor-pointer'>

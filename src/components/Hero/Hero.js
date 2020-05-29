@@ -8,17 +8,16 @@ const Hero = () => {
         background: 'linear-gradient(90deg, #F5002B 0%, #303030 100%)',
       }}
     >
-      <div className='container mx-auto -mb-12 -mt-6'>
+      <div className='container mx-auto -mb-6 -mt-6'>
         <div className='flex'>
           <div className='text-white w-1/2 ml-12'>
-            <div className='font-bold text-3xl'>
-              Spot Issues on the <br />
-              CA Bar Exam 👀
+            <div className='font-bold text-3xl mx-12'>
+              Spot Issues on the CA Bar Exam
             </div>
-            <div className='text-2xl'>Spot. Write. Repeat.</div>
+            <div className='text-2xl mx-12'>👁️ Spot. ✏️ Outline. 🔄 Repeat.</div>
           </div>
-          <div className='w-1/2 ml-12'>
-            <h2 className='font-bold text-3xl text-white'>Fall Exam: </h2>{' '}
+          <div className='text-white w-1/2 ml-12'>
+            <h2 className='font-bold text-3xl '>Fall Exam: </h2>{' '}
             <Countdown />
           </div>
         </div>
