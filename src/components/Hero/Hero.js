@@ -8,10 +8,10 @@ const Hero = () => {
         background: 'linear-gradient(90deg, #F5002B 0%, #303030 100%)',
       }}
     >
-      <div className='container mx-auto -mb-12'>
+      <div className='container mx-auto -mb-12 -mt-6'>
         <div className='flex'>
           <div className='text-white w-1/2 ml-12'>
-            <div className='font-bold text-5xl'>
+            <div className='font-bold text-3xl'>
               Spot Issues on the <br />
               CA Bar Exam 👀
             </div>

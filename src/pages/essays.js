@@ -6,14 +6,15 @@ const apiUrl = process.env.API_URL || 'http://localhost:1337';
 
 const essayPage = ({ subjects }) => {
   console.log(subjects);
+  // add function to total all of the essays.
   return (
     <Layout>
       {/*Subjects Header */}
       <div className='flex font-bold justify-center bg-red-700 text-white rounded text-3xl mb-4'>
-        📝 Past California Exams
+        📝 Past California Questions
       </div>
       {/*Subjects */}
-      <div className='flex flex-wrap mb-4 rounded justify-center'>
+      <div className='flex flex-wrap mb-4 rounded justify-center cursor-pointer'>
         {subjects
           .sort((a, b) => a.id - b.id)
           .map((subject) => (

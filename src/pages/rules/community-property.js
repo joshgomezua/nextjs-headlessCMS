@@ -12,7 +12,7 @@ const CommunityProperty = () => {
           <Accordion.Wrapper>
             <Accordion.Item>
               <Accordion.Heading className='font-bold text-3xl'>
-                Community or Separate Property
+                Opening Paragraph
               </Accordion.Heading>
               <Accordion.Child className='text-xl'>Rule</Accordion.Child>
             </Accordion.Item>
@@ -22,7 +22,7 @@ const CommunityProperty = () => {
               <textarea
                 className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-outline'
                 type='textarea'
-                placeholder='A lawyer owes...'
+                placeholder='California is a community...'
               />
             </div>
           </form>
@@ -31,7 +31,7 @@ const CommunityProperty = () => {
           <Accordion.Wrapper>
             <Accordion.Item>
               <Accordion.Heading className='font-bold text-3xl'>
-                Title is In One Spouses Name
+                Title In One Spouses Name
               </Accordion.Heading>
               <Accordion.Child className='text-xl'>Rule</Accordion.Child>
             </Accordion.Item>
@@ -41,7 +41,7 @@ const CommunityProperty = () => {
               <textarea
                 className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-outline'
                 type='textarea'
-                placeholder='Attorneys owe their clients...'
+                placeholder='...'
               />
             </div>
           </form>
@@ -60,7 +60,7 @@ const CommunityProperty = () => {
               <textarea
                 className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-outline'
                 type='textarea'
-                placeholder='A lawyer owes...'
+                placeholder='...'
               />
             </div>
           </form>
@@ -79,7 +79,7 @@ const CommunityProperty = () => {
               <textarea
                 className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-outline'
                 type='textarea'
-                placeholder='A lawyer owes...'
+                placeholder='...'
               />
             </div>
           </form>
@@ -98,7 +98,7 @@ const CommunityProperty = () => {
               <textarea
                 className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-outline'
                 type='textarea'
-                placeholder='A lawyer owes...'
+                placeholder='...'
               />
             </div>
           </form>

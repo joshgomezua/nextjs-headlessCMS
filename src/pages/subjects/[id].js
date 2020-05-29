@@ -9,10 +9,10 @@ const Subjects = ({ subject, essays }) => {
     <>
       <Layout>
         <div className='flex font-bold justify-center bg-red-700 text-white rounded text-3xl'>
-          ⏲ The Timer Will Start When You Click on the Exam!
+          ⏲ Timer Will Start When You Click on the Question!
         </div>
         <div className='font-bold text-4xl'>{subject.title}</div>
-        <div className='flex flex-wrap mb-4 rounded justify-center'>
+        <div className='flex flex-wrap mb-4 rounded justify-center cursor-pointer'>
           {essays
             .sort((a, b) => b.year - a.year)
           .map((essay, index) => (
