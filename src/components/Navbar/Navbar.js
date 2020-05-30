@@ -26,7 +26,7 @@ const Navbar = () => {
             <li className='px-1'>
               <Link href='/'>
               <a
-                className='font-semibold block text-grey-500 active:bg-red-500 hover:bg-red-700 hover:text-white rounded py-2 px-4'
+                className='font-semibold block text-grey-500 hover:bg-red-700 hover:text-white rounded py-2 px-4'
               >
                 Home
               </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
             <li className='px-1'>
             <Link href='/essays'>
               <a
-                className='text-center font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
+                className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
               >
                 Essays
               </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
             <li className='px-1'>
             <Link href='/rules'>
               <a
-                className='text-center font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
+                className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
               >
                 Rules
               </a>
@@ -61,7 +61,7 @@ const Navbar = () => {
             <li className='px-1'>
             <Link href='/about'>
               <a
-                className='text-center font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
+                className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
               >
                 About
               </a>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <li className='px-1'>
             <Link href='/contact'>
               <a
-                className='text-center font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
+                className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
               >
                 Contact
               </a>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <li className='px-2'>
             <Link href='/register'>
               <a
-                className='text-center font-semibold block border border-red-700 rounded hover:text-white hover:bg-red-700 text-black  py-2 px-4'
+                className='font-semibold block border border-red-700 rounded hover:text-white hover:bg-red-700 text-black  py-2 px-4'
               >
                 Register
               </a>

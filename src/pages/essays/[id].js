@@ -3,6 +3,7 @@ import MarkdownView from 'react-showdown';
 import TimerButton from '../../components/Timer/TimerButton';
 import Accordion from 'react-spring-accordion';
 import CKEditorWrapper from '../../components/CKEditor/CKEditor';
+
 const apiUrl = process.env.API_URL || 'http://localhost:1337';
 
 const Essays = ({ essays }) => {

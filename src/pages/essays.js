@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
 
-// const apiUrl = 'http://localhost:1337';
 const apiUrl = process.env.API_URL || 'http://localhost:1337';
 
 const essayPage = ({ subjects, essays }) => {
