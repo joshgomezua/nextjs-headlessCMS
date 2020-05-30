@@ -5,7 +5,6 @@ const apiUrl = process.env.API_URL || 'http://localhost:1337';
 
 const Subjects = ({ subject, essays }) => {
   return (
-    <>
       <Layout>
         <div className='flex font-bold justify-center bg-red-700 text-white rounded text-3xl'>
           ⏱️ Timer Starts When You Click on the Question!
@@ -28,7 +27,6 @@ const Subjects = ({ subject, essays }) => {
           ))}
         </div>
       </Layout>
-    </>
   );
 };
 
@@ -36,7 +34,6 @@ export async function getServerSideProps(context) {
   const { id } = context.query;
   const res = await fetch(`${apiUrl}/subjects/${id}`);
   const data = await res.json();
-  console.log(data);
   return {
     props: {
       subject: data,

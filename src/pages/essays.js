@@ -9,6 +9,7 @@ const essayPage = ({ subjects, essays }) => {
       <div className='flex font-bold justify-center  bg-red-700 text-white rounded text-3xl mb-4'>
         📝 Past California Questions
         <span className='font-regular italic text-xl text-gray-500'>
+       {console.log(essays.length)}
         {essays.length}
         </span>
       </div>
@@ -38,7 +39,7 @@ const essayPage = ({ subjects, essays }) => {
 export async function getServerSideProps() {
   const res = await fetch(`${apiUrl}/subjects/`);
   const subjects = await res.json();
-  const resp = await fetch(`${apiUrl}/essays/`);
+  const resp = await fetch(`${apiUrl}/essays/?_limit=300`);
   const essays = await resp.json();
   return {
     props: {

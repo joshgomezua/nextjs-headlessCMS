@@ -1,3 +1,5 @@
+import Link from '../Link/Link'
+
 const Footer = () => {
   return (
     <div className='bg-white'>
@@ -58,12 +60,13 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className='mt-4'>
+                    <Link href='/resources'>
                     <a
-                      href='/resources'
                       className='text-base leading-6 text-gray-500 hover:text-gray-900'
                     >
                       Resources
                     </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -75,12 +78,13 @@ const Footer = () => {
                 </h4>
                 <ul className='mt-4'>
                   <li>
+                    <Link href='/about'>
                     <a
-                      href='/about'
                       className='text-base leading-6 text-gray-500 hover:text-gray-900'
                     >
                       About
                     </a>
+                    </Link>
                   </li>
                   <li className='mt-4'>
                     <a
