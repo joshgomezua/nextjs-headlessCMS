@@ -1,4 +1,4 @@
-import Link from '../Link/Link'
+import Link from '../Link/Link';
 
 const Footer = () => {
   return (
@@ -61,11 +61,9 @@ const Footer = () => {
                   </li>
                   <li className='mt-4'>
                     <Link href='/resources'>
-                    <a
-                      className='text-base leading-6 text-gray-500 hover:text-gray-900'
-                    >
-                      Resources
-                    </a>
+                      <a className='text-base leading-6 text-gray-500 hover:text-gray-900'>
+                        Resources
+                      </a>
                     </Link>
                   </li>
                 </ul>
@@ -79,11 +77,9 @@ const Footer = () => {
                 <ul className='mt-4'>
                   <li>
                     <Link href='/about'>
-                    <a
-                      className='text-base leading-6 text-gray-500 hover:text-gray-900'
-                    >
-                      About
-                    </a>
+                      <a className='text-base leading-6 text-gray-500 hover:text-gray-900'>
+                        About
+                      </a>
                     </Link>
                   </li>
                   <li className='mt-4'>
@@ -137,28 +133,30 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='mt-8 xl:mt-0'>
-            <h4 className='text-sm leading-5 font-semibold tracking-wider text-black-400 uppercase'>
-              Subscribe to our newsletter
-            </h4>
-            <p className='mt-4 text-gray-500 text-base leading-6'>
-              The latest news, articles, and resources, sent to your inbox
-              weekly.
-            </p>
-            <form className='mt-4 sm:flex sm:max-w-md'>
+          <div className='w-auto'>
+            <a href='https://cdn.forms-content.sg-form.com/d3f81f1f-a2a6-11ea-b186-6a226adfa8c9'>
+              Subscribe
+            </a>
+
+            {/* <h4 className='text-sm leading-5 font-semibold tracking-wider text-black-400 uppercase'>
+              Subscribe to our newsletter weekly.
+            </p> */}
+            {/* <form className='mt-4 sm:flex sm:max-w-md'>
               <input
                 aria-label='Email address'
                 type='email'
                 required
                 className='appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:border-blue-300 focus:shadow-outline transition duration-150 ease-in-out'
                 placeholder='Enter your email'
-              />
+              />     </h4>
+            <p className='mt-4 text-gray-500 text-base leading-6'>
+              The latest news, articles, and resources, sent to your inbox
+
               <div className='mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0'>
                 <button className='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out'>
-                  Subscribe
                 </button>
               </div>
-            </form>
+            </form> */}
           </div>
         </div>
         <div className='mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between'>

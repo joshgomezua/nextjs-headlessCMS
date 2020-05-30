@@ -25,11 +25,9 @@ const Navbar = () => {
           <ul className='inline-flex '>
             <li className='px-1'>
               <Link href='/'>
-              <a
-                className='font-semibold block text-grey-500 hover:bg-red-700 hover:text-white rounded py-2 px-4'
-              >
-                Home
-              </a>
+                <a className='font-semibold block text-grey-500 hover:bg-red-700 hover:text-white rounded py-2 px-4'>
+                  Home
+                </a>
               </Link>
             </li>
             {/* <li>
@@ -41,49 +39,40 @@ const Navbar = () => {
               </a>
             </li> */}
             <li className='px-1'>
-            <Link href='/essays'>
-              <a
-                className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
-              >
-                Essays
-              </a>
+              <Link href='/essays'>
+                <a className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'>
+                  Essays
+                </a>
               </Link>
             </li>
             <li className='px-1'>
-            <Link href='/rules'>
-              <a
-                className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
-              >
-                Rules
-              </a>
+              <Link href='/rules'>
+                <a className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'>
+                  Rules
+                </a>
               </Link>
             </li>
             <li className='px-1'>
-            <Link href='/about'>
-              <a
-                className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
-              >
-                About
-              </a>
+              <Link href='/about'>
+                <a className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'>
+                  About
+                </a>
               </Link>
             </li>
             <li className='px-1'>
-            <Link href='/contact'>
-              <a
-                className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'
-              >
-                Contact
-              </a>
-            </Link>
+              <Link href='/contact'>
+                <a className='font-semibold block hover:bg-red-700 hover:text-white rounded py-2 px-4'>
+                  Contact
+                </a>
+              </Link>
             </li>
             <li className='px-2'>
-            <Link href='/register'>
               <a
                 className='font-semibold block border border-red-700 rounded hover:text-white hover:bg-red-700 text-black  py-2 px-4'
+                href='https://cdn.forms-content.sg-form.com/d3f81f1f-a2a6-11ea-b186-6a226adfa8c9'
               >
-                Register
+                Subscribe
               </a>
-              </Link>
             </li>
           </ul>
         </div>
