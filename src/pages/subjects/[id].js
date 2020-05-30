@@ -14,7 +14,7 @@ const Subjects = ({ subject, essays }) => {
           {essays
             .sort((a, b) => b.year - a.year)
           .map((essay, index) => (
-            <div className='max-w-sm  shadow-md w-1/2' key={index}>
+            <div className='max-w-sm shadow-md w-1/2' key={index}>
               <Link href='/essays/[id]' as={`/essays/${essay.id}`}>
                 <div className='p-4 text-2xl hover:bg-red-700 hover:text-white rounded-md'>
                   <div className='font-regular'>
