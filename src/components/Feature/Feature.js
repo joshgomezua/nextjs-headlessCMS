@@ -9,7 +9,7 @@ const Feature = () => {
         HOW DOES IT WORK?
       </h2>
       <div
-        className='h-1 mx-auto  w-64 opacity-50 my-0 rounded-t'
+        className='h-1 mx-auto w-64 opacity-50 my-0 rounded-t'
         style={{
           background: 'linear-gradient(90deg, #F5002B 0%, #303030 100%)',
         }}
@@ -23,8 +23,8 @@ const Feature = () => {
           <p className='text-gray-600 mb-8 text-xl'>
             Practice spotting issues on bar exams from the{' '}
             <span className='font-bold text-red-700'>last 20 years.</span>
-            <br /> We only show the questions that have been released and
-            publically available to everyone, only easier!
+            <br />
+            I've built the essay API with publically available exams.
           </p>
         </div>
         <div className='w-full md:w-1/2'>

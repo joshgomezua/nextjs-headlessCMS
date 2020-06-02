@@ -3,7 +3,7 @@ import Countdown from '../Countdown/Countdown';
 const Hero = () => {
   return (
     <div
-      className='pt-20'
+      className='pt-20 '
       style={{
         background: 'linear-gradient(90deg, #F5002B 0%, #303030 100%)',
       }}
@@ -14,11 +14,12 @@ const Hero = () => {
             <div className='font-bold text-3xl mx-12'>
               Spot Issues on the CA Bar Exam
             </div>
-            <div className='text-2xl mx-12'>👁️ Spot. ✏️ Outline. 🔄 Repeat.</div>
+            <div className='text-2xl mx-12'>
+              👁️ Spot. ✏️ Outline. 🔄 Repeat.
+            </div>
           </div>
           <div className='text-white w-1/2 ml-12'>
-            <h2 className='font-bold text-3xl '>Fall Exam: </h2>{' '}
-            <Countdown />
+            <h2 className='font-bold text-3xl '>Fall Exam: </h2> <Countdown />
           </div>
         </div>
       </div>

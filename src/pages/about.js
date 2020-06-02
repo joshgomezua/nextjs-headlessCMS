@@ -27,30 +27,40 @@ function About() {
         <div className='md:ml-6 md:w-1/2'>
           <h2 className='font-bold mb-3 text-xl'>Why, what is the problem?</h2>
           <p className='mb-6'>
-            The current problem of looking at past exams is two fold:{' '}
-            Exams are <span className='font-bold'>
-              1) outdated{' '}
-            </span>{' '}
-            or <span className='font-bold'>2) model answers are unrealistic.</span> <br />
-            <br />
-            Outdated in that students can find <a href="http://www.calbar.ca.gov/Admissions/Examinations/California-Bar-Examination/Past-Exams#esqasa" className="text-red-700 hover:underline">past exams on the State Bar of California website </a>
-            but only in PDF form accompanied by two sample answers rather than a rubric.  Moreover,
-            even though the sample answers are in a timed enviornment, an examinee may have included non-issues.
-            This creates the problem of guessing what precise issues the bar examiners wanted, a frustrating and outdated exercise.
-            <br /><br />
-            Secondly, looking at model answers from traditional bar prep courses, they seem
-            to be written by someone who had hours if not days to
-            formulate a response resulting in an unrealistic answer.
-            Comparing my timed answer had me feeling
-            grossly inadequate, which fueled my anxiety and just made things worse.
-            <br /><br />
-            I wanted a way to spot issues, write them down as if I were outlining, check my
-            answers, and move on. I'm working hard to get Possue to that point.
+            The current problem of looking at past exams is two fold: Exams are{' '}
+            <span className='font-bold'>1) outdated </span> or{' '}
+            <span className='font-bold'>2) model answers are unrealistic.</span>{' '}
             <br />
             <br />
-            Steven Finley, JD <br />
-            Western State College of Law <br />
-            <a href="mailto:info@possue.com" className="font-bold italic">info@possue.com</a>
+            Outdated in that students can find{' '}
+            <a
+              href='http://www.calbar.ca.gov/Admissions/Examinations/California-Bar-Examination/Past-Exams#esqasa'
+              className='text-red-700 hover:underline'
+            >
+              past exams on the State Bar of California website{' '}
+            </a>
+            but only in PDF form accompanied by two sample answers rather than a
+            rubric. Moreover, even though the sample answers are in a timed
+            enviornment, an examinee may have included non-issues. This creates
+            the problem of guessing what precise issues the bar examiners
+            wanted, a frustrating and outdated exercise.
+            <br />
+            <br />
+            Secondly, looking at model answers from traditional bar prep
+            courses, they seem to be written by someone who had hours if not
+            days to formulate a response resulting in an unrealistic answer.
+            Comparing my timed answer had me feeling grossly inadequate, which
+            fueled my anxiety and just made things worse.
+            <br />
+            <br />
+            I wanted a way to spot issues, write them down as if I were
+            outlining, check my answers, and move on. I'm working hard to get
+            Possue to that point.
+            <br />
+            <br />
+            <a href='mailto:info@possue.com' className='font-bold italic'>
+              info@possue.com
+            </a>
           </p>
         </div>
       </div>

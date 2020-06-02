@@ -9,8 +9,7 @@ const essayPage = ({ subjects, essays }) => {
       <div className='flex font-bold justify-center  bg-red-700 text-white rounded text-3xl mb-4'>
         📝 Past California Questions
         <span className='font-regular italic text-xl text-gray-500'>
-       {console.log(essays.length)}
-        {essays.length}
+          {essays.length}
         </span>
       </div>
       <div className='flex flex-wrap mb-4 rounded justify-center cursor-pointer'>
@@ -44,7 +43,7 @@ export async function getServerSideProps() {
   return {
     props: {
       subjects,
-      essays
+      essays,
     },
   };
 }

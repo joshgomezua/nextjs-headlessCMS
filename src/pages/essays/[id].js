@@ -7,7 +7,7 @@ import CKEditorWrapper from '../../components/CKEditor/CKEditor';
 const apiUrl = process.env.API_URL || 'http://localhost:1337';
 
 const Essays = ({ essays }) => {
-  const { question, content } = essays;
+  const { question, content, answer } = essays;
   return (
     <Layout>
       <p className='font-mono font-bold text-xl text-gray-800 text-center'>
@@ -31,10 +31,29 @@ const Essays = ({ essays }) => {
       </div>
       <Accordion.Wrapper>
         <Accordion.Item>
-          <Accordion.Heading className='text-3xl italic shadow border rounded w-full py-2 px-3 text-center text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-outline'>
-            Answer Key
+          <Accordion.Heading className='text-3xl italic shadow border rounded w-full mb-2 py-2 px-3 text-center text-gray-700 leading-tight focus:outline-none focus:shadow-outline hover:shadow-outline'>
+            Answer Key (coming soon)
           </Accordion.Heading>
-          <Accordion.Child className='text-xl '>Issues</Accordion.Child>
+          <Accordion.Child className='rounded text-xl'>
+            {answer != null ? (
+              <div className='text-xl mb-4'>
+                <MarkdownView
+                  className='font-serif text-xl'
+                  markdown={answer.content}
+                  options={{ simpleLineBreaks: true }}
+                />
+              </div>
+            ) : (
+              <div>
+                <a
+                  className='bg-red-700 text-white px-2 py-2 rounded '
+                  href='http://www.calbar.ca.gov/Admissions/Examinations/California-Bar-Examination/Past-Exams#esqasa'
+                >
+                  Selected Answers Link
+                </a>
+              </div>
+            )}
+          </Accordion.Child>
         </Accordion.Item>
       </Accordion.Wrapper>
     </Layout>
@@ -44,10 +63,10 @@ const Essays = ({ essays }) => {
 export async function getServerSideProps(context) {
   const { id } = context.query;
   const res = await fetch(`${apiUrl}/essays/${id}`);
-  const data = await res.json();
+  const essays = await res.json();
   return {
     props: {
-      essays: data,
+      essays,
     },
   };
 }

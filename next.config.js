@@ -7,3 +7,6 @@ module.exports = withImages(
     },
   })
 );
+
+// "http://localhost:1337/"
+// API_URL: 'https://possue-postgres.herokuapp.com',

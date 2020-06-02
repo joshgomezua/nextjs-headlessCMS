@@ -33,7 +33,7 @@ function Contact() {
                     </svg>
                   </div>
                   <div className='ml-3 text-base leading-6 text-gray-500'>
-                    <p>+1 (310) 666 9055</p>
+                    {/* <p>+1 (310) 666 9055</p> */}
                     <p className='mt-1'>Mon-Fri 8am to 5pm PST</p>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ function Contact() {
                     </svg>
                   </div>
                   <div className='ml-3 text-base leading-6 text-gray-500'>
-                    <a href="mailto:info@possue.com">info@possue.com</a>
+                    <a href='mailto:info@possue.com'>info@possue.com</a>
                   </div>
                 </div>
               </div>
@@ -66,8 +66,8 @@ function Contact() {
               </h2>
               <div className='mt-3'>
                 <p className='text-lg leading-7 text-gray-500'>
-                  Have suggestions, tips, or pointers? We'd be happy to take any ideas you have and consider
-                  building them into the site.
+                  Have suggestions, tips, or pointers? We'd be happy to take any
+                  ideas you have and consider building them into the site.
                 </p>
               </div>
               <div className='mt-12'>
@@ -86,7 +86,7 @@ function Contact() {
                     </svg>
                   </div>
                   <div className='ml-3 text-base leading-6 text-gray-500'>
-                    <p>+1 (310) 666 9055</p>
+                    {/* <p>+1 (310) 666 9055</p> */}
                     <p className='mt-1'>Mon-Fri 8am to 5pm PST</p>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ function Contact() {
                     </svg>
                   </div>
                   <div className='ml-3 text-base leading-6 text-gray-500'>
-                    <a href="mailto:info@possue.com">info@possue.com</a>
+                    <a href='mailto:info@possue.com'>info@possue.com</a>
                   </div>
                 </div>
               </div>
@@ -117,6 +117,6 @@ function Contact() {
       </div>
     </Layout>
   );
-};
+}
 
 export default Contact;

@@ -3,7 +3,7 @@ import Link from '../Link/Link';
 const Footer = () => {
   return (
     <div className='bg-white'>
-      <div className='max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8'>
+      <div className='max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-8 lg:px-8'>
         <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
           <div className='grid grid-cols-2 gap-8 xl:col-span-2'>
             <div className='md:grid md:grid-cols-2 md:gap-8'>
@@ -133,9 +133,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='w-auto'>
+          <div className='flex text-4xl justify-center font-semibold text-white bg-red-700 rounded-full hover:text-white hover:bg-red-400 py-10'>
             <a href='https://cdn.forms-content.sg-form.com/d3f81f1f-a2a6-11ea-b186-6a226adfa8c9'>
-              Subscribe
+              Subscribe 🖊
             </a>
 
             {/* <h4 className='text-sm leading-5 font-semibold tracking-wider text-black-400 uppercase'>

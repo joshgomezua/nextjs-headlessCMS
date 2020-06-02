@@ -14,7 +14,18 @@ const CommunityProperty = () => {
               <Accordion.Heading className='font-bold text-3xl'>
                 Opening Paragraph
               </Accordion.Heading>
-              <Accordion.Child className='text-xl'>Rule</Accordion.Child>
+              <Accordion.Child className='text-xl'>
+                California is a community property state. California Family Code
+                ("CFC") §760, defines community property as all property, real
+                or personal, wherever situated, acquired by a married person
+                during the marriage while domiciled in CA. A person is domiciled
+                in CA if they currently live in CA with the intent to remain.
+                Separate property is defined in CFC §770, as all property owned
+                by a person prior to marriage acquired during the marriage by
+                gift, bequest, devise, or descent, or acquired after legal
+                separation. The community property presumption is rebuttable
+                through tracing, transmutation, and title.
+              </Accordion.Child>
             </Accordion.Item>
           </Accordion.Wrapper>
           <form className='bg-white shadow-md rounded'>
